@@ -122,12 +122,12 @@ pause
 ### 批次檔案使用（Windows）
 
 #### 有字幕版本
-1. 雙擊 `生成摘要-Google_API_有字幕版.bat`
+1. 雙擊 `summarize_google_with_subtitle.bat`
 2. 輸入 YouTube 影片網址
 3. 等待處理完成
 
 #### 無字幕版本
-1. 雙擊 `生成摘要-Google_API_無字幕版.bat`
+1. 雙擊 `summarize_google_no_subtitle.bat`
 2. 輸入 YouTube 影片網址
 3. 等待處理完成
 

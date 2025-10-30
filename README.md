@@ -122,12 +122,12 @@ pause
 ### Batch File Usage (Windows)
 
 #### With Subtitle Version
-1. Double-click `生成摘要-Google_API_有字幕版.bat`
+1. Double-click `summarize_google_with_subtitle.bat`
 2. Enter YouTube video URL
 3. Wait for processing to complete
 
 #### No Subtitle Version
-1. Double-click `生成摘要-Google_API_無字幕版.bat`
+1. Double-click `summarize_google_no_subtitle.bat`
 2. Enter YouTube video URL
 3. Wait for processing to complete
 
