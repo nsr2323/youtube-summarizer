@@ -142,7 +142,7 @@ pause
 
 Summaries are saved as text files with naming format:
 - With subtitle version: `Video_Title.txt`
-- No subtitle version: `Video_Title_無字幕版.txt`
+- No subtitle version: `Video_Title_no_subtitle.txt`
 
 Files contain:
 - Video metadata
@@ -152,14 +152,14 @@ Files contain:
 
 ## FAQ
 
-### Q: Getting "無法找到任何可用的字幕" error
-**A:** This means the video has no subtitles. Use the no-subtitle version:
+### Q: Getting "No available transcript found" error
+**A:** The video likely has no subtitles. Use the no-subtitle version:
 ```bash
 python youtube_summarizer_google_no_subtitle.py "video_url"
 ```
 
-### Q: Getting "請設定環境變數 GOOGLE_API_KEY" error
-**A:** Please follow the API key setup steps above. Ensure:
+### Q: Getting "Please set environment variable GOOGLE_API_KEY" error
+**A:** Follow the API key setup steps above. Ensure:
 1. `.env` file exists and is formatted correctly
 2. Or system environment variable is properly set
 3. API key is valid and not expired
@@ -172,7 +172,7 @@ python youtube_summarizer_google_no_subtitle.py "video_url"
 4. Try re-running or use a different video
 
 ### Q: What subtitle languages are supported?
-**A:** Priority order: Traditional Chinese > Simplified Chinese > English > Other available languages
+**A:** Priority order: zh-TW (Traditional Chinese) > zh-CN (Simplified Chinese) > en (English) > others available
 
 ## Technical Specifications
 
