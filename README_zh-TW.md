@@ -80,7 +80,7 @@ python youtube_summarizer_google_no_subtitle.py "https://www.youtube.com/watch?v
   1. 開啟記事本（Notepad）
   2. 貼上批次內容（可參考本專案的 `.bat` 範本）
   3. 另存新檔：
-     - 檔名：例如 `生成摘要-Google_API_有字幕版.bat`
+     - 檔名：例如 `summarize_google_with_subtitle.bat`
      - 儲存類型：選「所有檔案（*.*）」
      - 編碼：建議「ANSI」或「UTF-8（無 BOM）」；若使用 UTF-8（有 BOM），可能在第一行出現奇怪字元導致錯誤
 - 方法二：複製範本

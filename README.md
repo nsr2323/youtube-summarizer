@@ -80,7 +80,7 @@ python youtube_summarizer_google_no_subtitle.py "https://www.youtube.com/watch?v
   1. Open Notepad
   2. Paste the batch content (see templates in this repo)
   3. Save As:
-     - File name: e.g., `生成摘要-Google_API_有字幕版.bat`
+     - File name: e.g., `summarize_google_with_subtitle.bat`
      - Save as type: "All Files (*.*)"
      - Encoding: Prefer "ANSI" or "UTF-8 without BOM". Using UTF-8 with BOM may introduce strange characters in the first line.
 - Method 2: Copy from a template
